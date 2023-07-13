@@ -1,5 +1,22 @@
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(../../assets/font/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(../../assets/font/Inter-Regular.ttf);
+}
+
 .top {
     background-color: #d63384;
+}
+.top,p{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.top,h1,h2{
+    font-weight: 900;
 }
 
 .menu {
@@ -18,38 +35,44 @@
 .menu .nav-link {
     padding: 1rem;
 }
-.head{
+
+.head {
     background-color: #ffffff;
-    height: 115px;
-    padding-top: 14px;
+    height: 80px;
+    padding-top: 0px;
+    padding-bottom: 30px;
 }
-.baner{
-    background: url("../../assets/img/baner.jpg") no-repeat;
-    background-size: cover;
-    height: 1080px;
-}
-.banerpost{
+
+
+.banerpost {
     position: absolute;
     bottom: -41px;
     width: 50%;
     color: #f0f0f0;
 
 }
-.banerpostb{
+
+.banerpostb {
     position: absolute;
-    bottom: -110px;
     width: 14%;
     border-radius: 30px;
-    background-color: #f0f0f0;
+    background-color: #f0f0f000;
     text-align: center;
+    border: 2px solid white;
 }
-.mdle{
- background-color: #e8e8e8;
+
+.mdle {
+    background-color: #e8e8e8;
     padding-top: 80px;
     padding-bottom: 65px;
 }
-.degine{
-    background-color: #f0f0f0;
+
+.mdle p, .mdle h1 {
+    font-family: 'Inter-Regular', sans-serif;
+}
+
+.degine {
+    background-color: #ffffff;
     padding-top: 75px;
     padding-bottom: 50px;
 }
@@ -121,22 +144,165 @@ tfoot tr {
     white-space: nowrap;
     width: 1px;
 }
-.news{
-    background-color: #d63384;
+
+.news {
+    background-color: #dc3373;
 }
-.pazel{
+
+.pazel {
     background-color: #e8e8e8;
     padding-top: 50px;
     padding-bottom: 45px;
 }
-.contact{
+
+.contact {
     background-color: #ffffff;
     padding-top: 40px;
-    padding-bottom:40px;
+    padding-bottom: 40px;
 
 }
-.footer{
-    background-color: #d63384;
+
+.footer {
+    background-color: #dc3373;
     padding-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 22px;
+}
+div{
+    font-family:'Inter-Regular',  sans-serif;
+}
+.manuu{
+    font-size: 1.3rem;
+    font-weight: 900;
+
+}
+.strike {
+    position: relative;
+    display: inline-block;
+    color: #707070;
+}
+.strike::before {
+    content: '';
+    border-bottom: 2px solid #dc3373;
+    width: 109%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: skewY(-200deg);
+}
+
+.head-row{
+}
+
+.head-row th{
+    background-color: #707070;
+    border-radius: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 21px;
+    padding: 8px;
+    margin: -5px;
+}
+
+.head-row th div{
+    background-color: #707070;
+    border-radius: 12px;
+    color: #ffffff
+}
+
+.head-row2{
+    padding: 20px;
+}
+.head-row2 td{
+    border-radius: 20px;
+    border: none;
+}
+.table2{
+    background-color: #e8e8e8;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.head1{
+    font-size: 5rem;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.head2{
+    font-size: 10rem;
+    color: #dc3373;
+    text-shadow: -1px 13px 20px rgb(0 0 0 / 59%);
+}
+
+
+.head3{
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: -1px 5px 6px rgb(0 0 0 / 60%);
+}
+.navbar-collapse{
+    background-color: #ffffff;
+    z-index: 9999;
+}
+.collorr{
+    color: #dc3373;
+}
+.sixe{
+    font-weight: 500;
+    font-size: 0.90rem;
+    color: #707070;
+}
+.head4{
+    font-weight: 900;
+}
+.head5{
+    font-size: 3rem;
+}
+
+.head6{
+    color: #707070;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+.foter{
+    color: #ffffff;
+    line-height: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .head-row {
+        font-size: 15px;
+    }
+    .head-row2{
+        font-size: 15px;
+    }
+    .banerpostb{
+        width: 50%;
+    }
+
+    .banerpostb button{
+        font-size: 15px;
+    }
+    .carousel-caption {
+        bottom: 25%;
+    }
+    .head1{
+        font-size: 1rem;
+    }
+
+    .head2{
+        font-size: 2rem;
+    }
+
+    .head3{
+        font-size: 0.8rem;
+    }
+
+    .navbar-collapse{
+        background-color: #ffffff;
+        z-index: 9999;
+    }
 }
