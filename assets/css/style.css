@@ -13,7 +13,7 @@
 }
 .top,p{
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .top,h1,h2{
     font-weight: 900;
@@ -54,7 +54,7 @@
 
 .banerpostb {
     position: absolute;
-    width: 14%;
+    width: 20%;
     border-radius: 30px;
     background-color: #f0f0f000;
     text-align: center;
