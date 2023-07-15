@@ -416,6 +416,12 @@ td div {
         font-size: 1rem;
     }
 
+    .contact {
+        background-color: #ffffff;
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+
     .head-row {
         font-size: 15px;
     }
