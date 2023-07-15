@@ -422,6 +422,10 @@ td div {
         padding-bottom: 15px;
     }
 
+    .head{
+        height: 95px;
+    }
+
     .head-row {
         font-size: 15px;
     }
@@ -443,15 +447,16 @@ td div {
     }
 
     .head1 {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        margin-bottom: unset;
     }
 
     .head2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .head3 {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .navbar-collapse {
