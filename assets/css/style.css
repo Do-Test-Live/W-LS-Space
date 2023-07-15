@@ -11,11 +11,13 @@
 .top {
     background-color: #d63384;
 }
-.top,p{
+
+.top, p {
     font-weight: 500;
     font-size: 1.5rem;
 }
-.top,h1,h2{
+
+.top, h1, h2 {
     font-weight: 900;
 }
 
@@ -131,9 +133,6 @@ tfoot tr {
     background-color: whitesmoke;
 }
 
-:is(th, td):not(:first-child) {
-    border-inline-start: 1px solid lightgray;
-}
 
 .visually-hidden {
     clip: rect(0 0 0 0);
@@ -167,19 +166,101 @@ tfoot tr {
     padding-top: 60px;
     padding-bottom: 22px;
 }
-div{
-    font-family:'Inter-Regular',  sans-serif;
+
+div {
+    font-family: 'Inter-Regular', sans-serif;
 }
-.manuu{
+
+.nav-item {
     font-size: 1.3rem;
     font-weight: 900;
-
 }
+
+.nav-link {
+    color: #d63384;
+}
+
+.ls-logo {
+    width: 145px;
+}
+
+.ls-mobile-logo{
+    width: 165px;
+}
+
+.ls-btn {
+    color: #ffffff;
+}
+
+.ls-title {
+    color: #d63384;
+}
+
+.ls-paragraph {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.ls-design-img {
+    height: 170px;
+}
+
+table {
+    margin-bottom: 0 !important;
+}
+
+tr {
+    border: none;
+}
+
+th, td {
+    padding: 5px;
+    margin: -5px;
+    border: none;
+}
+
+th div {
+    background-color: #707070;
+    border-radius: 12px;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+td div {
+    background-color: #ffffff;
+    border-radius: 12px;
+    color: #000000;
+    border: none;
+    padding: 8px;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.ls-primary-color{
+    color: #dc3373;
+}
+
+.ls-gray-color{
+    color: #5c636a;
+}
+
+.ls-puzzle-img{
+    width: 165px;
+}
+
+.ls-footer-logo{
+    height: 78px;
+}
+
 .strike {
     position: relative;
     display: inline-block;
     color: #707070;
 }
+
 .strike::before {
     content: '';
     border-bottom: 2px solid #dc3373;
@@ -190,10 +271,10 @@ div{
     transform: skewY(-200deg);
 }
 
-.head-row{
+.head-row {
 }
 
-.head-row th{
+.head-row th {
     background-color: #707070;
     border-radius: 12px;
     color: #ffffff;
@@ -203,105 +284,115 @@ div{
     margin: -5px;
 }
 
-.head-row th div{
+.head-row th div {
     background-color: #707070;
     border-radius: 12px;
     color: #ffffff
 }
 
-.head-row2{
+.head-row2 {
     padding: 20px;
 }
-.head-row2 td{
+
+.head-row2 td {
     border-radius: 20px;
     border: none;
 }
-.table2{
+
+.table2 {
     background-color: #e8e8e8;
     padding-top: 80px;
     padding-bottom: 60px;
 }
 
-.head1{
+.head1 {
     font-size: 5rem;
     color: #ffffff;
     font-weight: 900;
 }
 
-.head2{
+.head2 {
     font-size: 10rem;
     color: #dc3373;
     text-shadow: -1px 13px 20px rgb(0 0 0 / 59%);
 }
 
 
-.head3{
+.head3 {
     font-size: 3rem;
     color: #ffffff;
     text-shadow: -1px 5px 6px rgb(0 0 0 / 60%);
 }
-.navbar-collapse{
+
+.navbar-collapse {
     background-color: #ffffff;
     z-index: 9999;
 }
-.collorr{
+
+.collorr {
     color: #dc3373;
 }
-.sixe{
+
+.sixe {
     font-weight: 500;
-    font-size: 0.90rem;
+    font-size: 0.8rem;
     color: #707070;
 }
-.head4{
+
+.head4 {
     font-weight: 900;
 }
-.head5{
+
+.head5 {
     font-size: 3rem;
 }
 
-.head6{
+.head6 {
     color: #707070;
     font-weight: bold;
     padding-bottom: 35px;
 }
-.foter{
+
+.foter {
     color: #ffffff;
-    line-height: 20px;
+    line-height: 35px;
 }
-
-
 
 
 @media only screen and (max-width: 992px) {
     .head-row {
         font-size: 15px;
     }
-    .head-row2{
+
+    .head-row2 {
         font-size: 15px;
     }
-    .banerpostb{
+
+    .banerpostb {
         width: 50%;
     }
 
-    .banerpostb button{
+    .banerpostb button {
         font-size: 15px;
     }
+
     .carousel-caption {
         bottom: 25%;
     }
-    .head1{
+
+    .head1 {
         font-size: 1rem;
     }
 
-    .head2{
+    .head2 {
         font-size: 2rem;
     }
 
-    .head3{
+    .head3 {
         font-size: 0.8rem;
     }
 
-    .navbar-collapse{
+    .navbar-collapse {
         background-color: #ffffff;
         z-index: 9999;
     }
