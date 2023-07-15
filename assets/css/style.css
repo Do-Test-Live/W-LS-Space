@@ -360,6 +360,62 @@ td div {
 
 
 @media only screen and (max-width: 992px) {
+    .top p{
+        font-size: 0.7rem;
+    }
+
+    .ls-paragraph{
+        font-size: 0.8rem;
+    }
+
+    .mdle {
+        background-color: #e8e8e8;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .degine {
+        background-color: #ffffff;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .ls-design-img {
+        height: 130px;
+    }
+
+    .table2 {
+        background-color: #e8e8e8;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .head5 {
+        font-size: 2rem;
+    }
+
+    .pazel {
+        background-color: #e8e8e8;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer {
+        background-color: #dc3373;
+        padding-top: 55px;
+        padding-bottom: 22px;
+    }
+
+    .foter {
+        color: #ffffff;
+        line-height: 20px;
+    }
+
+    .top, p {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
     .head-row {
         font-size: 15px;
     }
