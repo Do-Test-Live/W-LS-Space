@@ -357,6 +357,10 @@ td div {
     color: #ffffff;
     line-height: 35px;
 }
+.head7 {
+    color: #707070;
+    font-weight: bold;
+}
 
 
 @media only screen and (max-width: 992px) {
