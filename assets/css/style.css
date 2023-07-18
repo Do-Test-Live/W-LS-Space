@@ -361,6 +361,11 @@ td div {
     color: #707070;
     font-weight: bold;
 }
+.price{
+    color:#dc3373;
+    font-weight: bold;
+    font-size: 25px;
+}
 
 
 @media only screen and (max-width: 992px) {
@@ -466,5 +471,10 @@ td div {
     .navbar-collapse {
         background-color: #ffffff;
         z-index: 9999;
+    }
+    .head7 {
+        color: #707070;
+        font-weight: bold;
+        font-size: 18px;
     }
 }
